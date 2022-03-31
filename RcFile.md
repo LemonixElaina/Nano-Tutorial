@@ -1,8 +1,11 @@
 # 配置文件
+
+**还未翻译完成.....**
+
 ### 目前支持的设置有:
 
 - `set afterends`
-> Make Ctrl+Right and Ctrl+Delete stop at word ends instead of beginnings.
+> 使 `Ctrl+Right` 和 `Ctrl+Delete` 停在单词结尾而非单词开头
 
 
 - `set allow_insecure_backup`
