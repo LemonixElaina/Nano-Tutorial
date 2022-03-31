@@ -12,14 +12,14 @@ Nano是一个简单且友好的编辑器，相比于Vim的复杂和Emacs的庞�
 ## 教程
 
 #### 移动
-- `CTRL-b` 向左移动，同 **<Left>**
-- `CTRL-f` 向右移动，同 **<Right>**
-- `CTRL-p` 向上移动，同 **<Up>**
-- `CTRL-n` 向下移动，同 **<Down>**
-- `CTRL-a` 移动到行首，同 **<Home>**
-- `CTRL-e` 移动到行末，同 **<End>**
-- `CTRL-v` 下翻页，同 **<PageDown>**
-- `CTRL-y` 上翻页，同 **<PageUp>**
+- `CTRL-b` 向左移动，同 **\<Left\>**
+- `CTRL-f` 向右移动，同 **\<Right\>**
+- `CTRL-p` 向上移动，同 **\<Up\>**
+- `CTRL-n` 向下移动，同 **\<Down\>**
+- `CTRL-a` 移动到行首，同 **\<Home\>**
+- `CTRL-e` 移动到行末，同 **\<End\>**
+- `CTRL-v` 下翻页，同 **\<PageDown\>**
+- `CTRL-y` 上翻页，同 **\<PageUp\>**
 - `CTRL-Left` 向左跳一个单词
 - `CTRL-Right` 向右跳一个单词
 
