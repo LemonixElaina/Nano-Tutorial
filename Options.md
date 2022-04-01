@@ -147,7 +147,7 @@
 
 
 - `-j` 或 `--jumpyscrolling`
-> Scroll the buffer contents per half-screen instead of per line.
+> 滚动屏幕时，到最底下一行时，再向下移，则会用屏幕中间的那行替代第一行
 
 
 - `-k` 或 `--cutfromcursor`
@@ -155,19 +155,19 @@
 
 
 - `-l` 或 `--linenumbers`
-> Display line numbers to the left of the text area. (Any line with an anchor additionally gets a mark in the margin.)
+> 在文本左侧显示行数 (会和文本有一条边界)
 
 
 - `-m` 或 `--mouse`
-> Enable mouse support, if available for your system. When enabled, mouse clicks can be used to place the cursor, set the mark (with a double click), and execute shortcuts. The mouse will work in the X Window System, and on the console when gpm is running. Text can still be selected through dragging by holding down the Shift key.
+> 如果系统有权使用鼠标的话，开启鼠标支持。当开启鼠标支持时，按左键可以让光标移动到指定位置，双击同一位置可以开启选中模式，还可以点击底部提示栏。如果是有GUI的系统且鼠标服务正在运行，鼠标将会显示在窗口之上。文本仍然可以通过按住Shift键进行拖选。
 
 
 - `-n` 或 `--noread`
 > Treat any name given on the command line as a new file. This allows nano to write to named pipes: it will start with a blank buffer, and will write to the pipe when the user saves the "file". This way nano can be used as an editor in combination with for instance gpg without having to write sensitive data to disk first.
 
 
-- `-o directory` 或 `--operatingdir=directory`
-> Set the operating directory. This makes nano set up something similar to a chroot.
+- `-o 目录` 或 `--operatingdir=目录`
+> 设置操作目录，类似于`chroot`命令，保存文件时会保存在指定目录中
 
 
 - `-p` 或 `--preserve`
@@ -209,7 +209,7 @@
 
 
 - `-y` 或 `--afterends`
-> Make Ctrl+Right and Ctrl+Delete stop at word ends instead of beginnings.
+> 让`Ctrl+→` 和 `Ctrl+Del` 停在单词结尾而非单词开头
 
 
 - `-z` 或 `--suspendable`
@@ -230,3 +230,8 @@
 
 - `-!` 或 `--magic`
 > When neither the file’s name nor its first line give a clue, try using libmagic to determine the applicable syntax.
+
+
+***
+
+**此篇翻译贡献者: Lemonix、Sherlock**

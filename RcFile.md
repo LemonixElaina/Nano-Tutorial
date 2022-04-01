@@ -275,3 +275,8 @@
 - `set zero`
 > de all elements of the interface (title bar, status bar, and help lines) and use all rows of the terminal for showing the contents of the buffer. The status bar appears only when there is a significant message, and disappears after 1.5 seconds or upon the next keystroke. With M-Z the title bar plus status bar can be toggled. With M-X th> 
 
+
+***
+
+
+**此篇翻译贡献者: Lemonix**
